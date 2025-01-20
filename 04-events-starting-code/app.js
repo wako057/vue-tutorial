@@ -7,7 +7,6 @@ const app = Vue.createApp({
   },
   methods: {
     submitForm(event) {
-      event.preventDefault();
       console.log("bluuu");
       alert("submitted!");
     },
