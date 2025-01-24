@@ -16,7 +16,7 @@ const app = Vue.createApp({
     },
   },
   watch: {
-    result(nb) {
+    output(nb) {
       const that = this;
       setTimeout(function () {
         console.log("on reset");
