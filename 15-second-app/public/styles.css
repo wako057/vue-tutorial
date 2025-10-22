@@ -1,39 +1,3 @@
-<template>
-    <h2>My Friends</h2>
-    <ul>
-        <FriendContact></FriendContact>
-    </ul>
-</template>
-
-<script >
-import FriendContact from "./components/FriendContact.vue"
-export default {
-    data() {
-        return {
-            friends: [
-                {
-                    id: "manuel",
-                    name: "Manuel Lorenz",
-                    phone: "01234 5678 991",
-                    email: "manuel@localhost.com",
-                    detailsAreVisible: false,
-                },
-                {
-                    id: "julie",
-                    name: "Julie Jones",
-                    phone: "09876 543 221",
-                    email: "julie@localhost.com",
-                    detailsAreVisible: false,
-                }
-            ]
-        };
-    },
-    components: { FriendContact }
-}
-
-</script>
-
-<style>
 * {
   box-sizing: border-box;
 }
@@ -97,4 +61,3 @@ header {
   border-color: #ec3169;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
 }
-</style>
