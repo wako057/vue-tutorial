@@ -11,15 +11,12 @@
 
 <script>
 export default {
+    props: [
+        'friend',
+    ],
     data() {
         return {
             detailsAreVisible: false,
-            friend: {
-                id: "manuel",
-                name: "Manuel Lorenz",
-                phone: "01234 5678 991",
-                email: "manuel@localhost.com",
-            }
         }
     },
     methods: {
