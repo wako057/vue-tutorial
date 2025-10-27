@@ -17,6 +17,7 @@ export default {
                     phone: "01234 5678 991",
                     email: "manuel@localhost.com",
                     detailsAreVisible: false,
+                    isFavorite: true,
                 },
                 {
                     id: "julie",
@@ -24,6 +25,7 @@ export default {
                     phone: "09876 543 221",
                     email: "julie@localhost.com",
                     detailsAreVisible: false,
+                    isFavorite: false,
                 }
             ]
         };
