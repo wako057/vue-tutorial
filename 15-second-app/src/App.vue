@@ -1,7 +1,15 @@
 <template>
     <h2>My Friends</h2>
     <ul>
-      <FriendContact v-for="friend of friends" :friend="friend" :key="friend.name"></FriendContact>
+      <friend-contact v-for="friend of friends" 
+        :key="friend.id"
+        :name="friend.name"
+        :phone="friend.phone" 
+        :email="friend.email" 
+        :detailsAreVisible="friend.detailsAreVisible" 
+        :isFavorite="friend.isFavorite"
+      >
+      </friend-contact>
     </ul>
 </template>
 
