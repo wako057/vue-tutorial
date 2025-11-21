@@ -40,6 +40,18 @@ export default {
             default: false,
         }
     },
+    emits: ['toggle-favorite'],
+    // emits: {
+    //     'toggle-favorite': (id) => {
+    //         console.log('id', id);
+    //         if (id) {
+    //             return true;
+    //         } else {
+    //             console.warn('Id is required');
+    //             return false;
+    //         }
+    //     }
+    // },
     data() {
         return {
             detailsVisible: this.detailsAreVisible,
